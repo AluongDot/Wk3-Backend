@@ -14,7 +14,7 @@ const app = express();
 // ✅ CORS configuration
 const allowedOrigins =
   process.env.NODE_ENV === "production"
-    ? ["https://task-manager-w60i.onrender.com"] // your deployed frontend
+    ? ["https://clients-task.onrender.com"] // your deployed frontend
     : ["http://localhost:5173"]; // local dev frontend
 
 app.use(
